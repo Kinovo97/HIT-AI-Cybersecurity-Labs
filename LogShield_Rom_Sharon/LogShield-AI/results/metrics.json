@@ -1,0 +1,62 @@
+{
+    "project": "LogShield AI",
+    "model": "Isolation Forest",
+    "dataset": {
+        "total_rows": 2760,
+        "normal_rows": 2400,
+        "anomaly_rows": 360
+    },
+    "metrics": {
+        "accuracy": 0.974,
+        "precision": 0.833,
+        "recall": 1.0,
+        "f1_score": 0.909
+    },
+    "confusion_matrix": {
+        "labels": [
+            "Normal",
+            "Anomaly"
+        ],
+        "matrix": [
+            [
+                2328,
+                72
+            ],
+            [
+                0,
+                360
+            ]
+        ],
+        "true_normal_pred_normal": 2328,
+        "true_normal_pred_anomaly": 72,
+        "true_anomaly_pred_normal": 0,
+        "true_anomaly_pred_anomaly": 360
+    },
+    "classification_report": {
+        "Normal": {
+            "precision": 1.0,
+            "recall": 0.97,
+            "f1-score": 0.9847715736040609,
+            "support": 2400.0
+        },
+        "Anomaly": {
+            "precision": 0.8333333333333334,
+            "recall": 1.0,
+            "f1-score": 0.9090909090909091,
+            "support": 360.0
+        },
+        "accuracy": 0.9739130434782609,
+        "macro avg": {
+            "precision": 0.9166666666666667,
+            "recall": 0.985,
+            "f1-score": 0.946931241347485,
+            "support": 2760.0
+        },
+        "weighted avg": {
+            "precision": 0.9782608695652174,
+            "recall": 0.9739130434782609,
+            "f1-score": 0.9749001825806064,
+            "support": 2760.0
+        }
+    }
+}

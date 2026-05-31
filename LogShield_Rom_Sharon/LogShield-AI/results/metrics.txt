@@ -1,0 +1,21 @@
+LogShield AI - Evaluation Metrics
+=================================
+Accuracy:  0.974
+Precision: 0.833
+Recall:    1.000
+F1 Score:  0.909
+
+Confusion Matrix [Normal, Anomaly]:
+[[2328   72]
+ [   0  360]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Normal       1.00      0.97      0.98      2400
+     Anomaly       0.83      1.00      0.91       360
+
+    accuracy                           0.97      2760
+   macro avg       0.92      0.98      0.95      2760
+weighted avg       0.98      0.97      0.97      2760
+
